@@ -6,9 +6,44 @@
 
 body {
     padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 143, 235);
 }
 
 blockquote {
     margin: 0 0 0 30px;
+    font-style: italic;
+    line-height: 1.7;
 }
 
+h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: -2px;
+    word-spacing: 20px;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+em {
+    text-transform: capitalize;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
